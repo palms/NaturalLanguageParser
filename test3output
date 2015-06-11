@@ -1,0 +1,72 @@
+name: Saul Laufer
+id: 906-336-5028
+
+Begin test of CSX scanner.
+3:1 	class
+3:7 	Identifier (Tester)
+3:14 	{
+4:2 	bool
+4:7 	Identifier (b1)
+4:9 	;
+5:2 	bool
+5:7 	Identifier (b2)
+5:9 	;
+6:2 	int
+6:6 	Identifier (i1)
+6:8 	;
+7:2 	int
+7:6 	Identifier (i2)
+7:8 	;
+9:2 	Identifier (i2)
+9:5 	=
+9:7 	Integer literal (20076)
+9:13 	;
+10:2 	Identifier (i3)
+10:5 	=
+10:7 	Integer literal (5)
+10:8 	;
+13:8	**ERROR: Invalid token (")
+13:3 	Identifier (bad)
+13:7 	Identifier (string)
+13:7	**ERROR: Invalid token (")
+15:2 	while
+15:8 	(
+15:9 	Identifier (i3)
+15:12 	!=
+15:15 	Integer literal (0)
+15:16 	)
+15:18 	{
+17:3 	Identifier (i2)
+17:6 	=
+17:8	**ERROR: value > int MAX_VALUE
+17:8 	Integer literal (2147483647)
+17:20 	;
+18:3 	Identifier (i3)
+18:6 	=
+18:8 	Identifier (i3)
+18:11 	-
+18:13 	Integer literal (1)
+18:14 	;
+19:2 	}
+23:2 	Identifier (i2)
+23:5 	=
+23:7	**ERROR: value > int MIN_VALUE
+23:7 	Integer literal (-2147483648)
+23:20 	;
+27:20	**ERROR: Invalid token (^)
+29:20	**ERROR: Invalid token (%)
+33:2 	char
+33:7 	Identifier (c1)
+33:10 	=
+33:10	**ERROR: Invalid token (')
+33:13 	Character literal (c)
+33:16 	;
+37:2 	Identifier (string)
+37:9 	Identifier (s1)
+37:12 	=
+37:14 	String literal ("hi there")
+37:14	**ERROR: Invalid token (")
+37:25 	;
+41:15	**ERROR: invalid comment
+43:1 	}
+End test of CSX scanner.

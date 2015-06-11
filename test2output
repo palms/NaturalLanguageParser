@@ -1,0 +1,138 @@
+name: Saul Laufer
+id: 906-336-5028
+
+Begin test of CSX scanner.
+2:1 	class
+2:7 	Identifier (Tester)
+2:14 	{
+4:2 	int
+4:6 	Identifier (i1)
+4:8 	;
+5:2 	int
+5:6 	Identifier (i2)
+5:8 	;
+6:2 	bool
+6:7 	Identifier (b1)
+6:9 	;
+7:2 	bool
+7:7 	Identifier (b2)
+7:9 	;
+8:2 	const
+8:8 	char
+8:13 	Identifier (c1)
+8:16 	=
+8:18 	Character literal (C)
+8:21 	;
+9:2 	const
+9:8 	String literal ("this is a string")
+11:2 	Identifier (il)
+11:5 	=
+11:7 	Integer literal (4)
+11:9 	+
+11:11 	Integer literal (10)
+12:2 	Identifier (i2)
+12:5 	=
+12:7 	Integer literal (50)
+12:10 	/
+12:12 	Integer literal (5)
+14:2 	if
+14:5 	(
+14:6 	Identifier (i2)
+14:9 	!=
+14:12 	Integer literal (50)
+14:14 	)
+14:16 	{
+15:3 	int
+15:7 	Identifier (i3)
+15:10 	=
+15:12 	Identifier (i1)
+15:15 	-
+15:17 	Identifier (i2)
+15:19 	;
+16:3 	Identifier (i2)
+16:6 	=
+16:8 	Identifier (i2)
+16:11 	*
+16:13 	Integer literal (12)
+16:15 	;
+17:3 	Identifier (b1)
+17:6 	=
+17:8 	true
+17:12 	;
+18:2 	}
+20:2 	Identifier (b1)
+20:5 	=
+20:7 	false
+20:12 	;
+22:2 	while
+22:8 	(
+22:9 	!
+22:10 	Identifier (b1)
+22:12 	)
+22:14 	{
+23:3 	Identifier (b2)
+23:6 	=
+23:8 	false
+23:13 	;
+24:3 	bool
+24:8 	Identifier (b3)
+24:11 	=
+24:13 	Identifier (b1)
+24:16 	||
+24:19 	Identifier (b2)
+24:21 	;
+26:3 	if
+26:6 	(
+26:7 	Identifier (i2)
+26:10 	>=
+26:13 	Identifier (i1)
+26:15 	)
+26:17 	{
+27:4 	if
+27:7 	(
+27:8 	Identifier (i2)
+27:11 	==
+27:14 	Identifier (i1)
+27:16 	)
+27:18 	{
+28:5 	break
+28:10 	;
+29:4 	}
+30:3 	}
+32:3 	else
+32:8 	{
+33:4 	[
+33:5 	Identifier (b1)
+33:7 	]
+33:9 	=
+33:11 	Identifier (b2)
+33:14 	&&
+33:17 	Identifier (b3)
+33:19 	;
+34:4 	<
+34:5 	Identifier (i1)
+34:7 	>
+34:8 	;
+35:3 	}
+37:3 	if
+37:6 	(
+37:7 	Identifier (i1)
+37:10 	<=
+37:13 	Identifier (i3)
+37:15 	)
+37:17 	{
+38:4 	Identifier (b1)
+38:6 	:
+38:7 	Identifier (b2)
+38:9 	;
+39:3 	}
+40:2 	}
+46:2 	continue
+48:2 	write
+48:8 	read
+50:2 	void
+52:2 	return
+52:9 	Integer literal (0)
+52:10 	;
+53:1 	}
+End test of CSX scanner.

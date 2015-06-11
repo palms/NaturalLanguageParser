@@ -1,0 +1,16 @@
+name: Saul Laufer
+id: 906-336-5028
+
+Begin test of CSX scanner.
+1:1 	class
+1:7 	Identifier (T)
+1:9 	{
+4:1 	const
+5:4 	Identifier (cnst)
+6:1 	String literal ("hello")
+7:1	**ERROR: Invalid token (^)
+8:1 	Integer literal (10)
+8:3 	;
+End test of CSX scanner.
+
+//NOTE: This test was provided in the P2 info.
